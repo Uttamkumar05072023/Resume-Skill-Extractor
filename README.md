@@ -1,6 +1,4 @@
-# GUVI Hackathon FSD Setup
-
-A full-stack development boilerplate for GUVI Hackathon participants, featuring a React frontend and Python backend.
+# GUVI Hackathon 
 
 ## 🚀 Tech Stack
 
@@ -40,13 +38,6 @@ A full-stack development boilerplate for GUVI Hackathon participants, featuring 
 
 ## 🛠️ Getting Started
 
-### Important Note
-This is a boilerplate template. Do not push directly to this repository. Instead:
-1. Fork this repository to your GitHub account
-2. Clone your forked repository
-3. Create a new repository for your project
-4. Push your code to your new repository
-
 ### Environment Variables
 
 Both frontend and backend use environment variables for configuration. Create the following `.env` files:
@@ -54,7 +45,7 @@ Both frontend and backend use environment variables for configuration. Create th
 #### Backend (.env)
 Create `backend/.env`:
 ```env
-APP_NAME=Hackathon FastAPI Backend
+APP_NAME=Resume-Skill-Extractor
 API_VERSION=v1
 ```
 
@@ -62,17 +53,6 @@ API_VERSION=v1
 Create `frontend/.env`:
 ```env
 VITE_API_URL=http://localhost:3001
-```
-
-Note: `.env` files are not tracked in Git for security reasons. Make sure to:
-1. Never commit `.env` files to version control
-2. Keep a `.env.example` file in your repository as a template
-3. Document all required environment variables in your README
-
-### Clone Your Fork
-```bash
-git clone https://github.com/guvi-research/react-python-fsd-v1.git
-cd react-python-fsd-v1
 ```
 
 ### Frontend Setup
@@ -249,15 +229,3 @@ react-python-fsd-v1/
 ### Backend
 - `make run-local` - Start development server
 - `make deploy` - Deploy to Railway
-
-## 🤝 Contributing
-
-1. Fork this repository to your GitHub account
-2. Create a new repository for your project
-3. Clone your forked repository
-4. Make your changes
-5. Push to your new repository
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.

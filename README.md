@@ -1,4 +1,20 @@
-# GUVI Hackathon 
+# Resume Skill Extractor
+
+A tool built as part of the GUVI Hackathon Full Stack Development challenge.
+
+## Problem Description
+
+Create a tool where users can upload their resumes and receive an instant extraction of the key skills present in their document.
+
+## Features
+
+- React frontend for uploading resumes (PDF/text)
+- Python backend to extract text and identify skills
+- Results page showing extracted skills in tags
+
+## ✨ Live Demo
+
+Check out the live application here: [Demo](https://resume-skill-extractor.netlify.app/)
 
 ## 🚀 Tech Stack
 
